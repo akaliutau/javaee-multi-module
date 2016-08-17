@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+			http://maven.apache.org/maven-v4_0_0.xsd">
+
+<modelVersion>4.0.0</modelVersion>
+  
+
+<groupId>org.akalu</groupId>
+  
+<artifactId>parent</artifactId>
+  
+<version>1.0</version>
+  
+<packaging>pom</packaging>
+  
+
+<name>Multi-Module Project</name>
+  
+
+<inceptionYear>2016</inceptionYear>
+  
+<description>
+
+
+A simple 9-Module implementation of  server-client system.
+</description>
+
+<developers>
+   <developer>
+        <id>akalu</id>
+        <name>Alex[ey] Kalutov</name>
+        <email>{k5771k@gmail.com}</email>
+        <roles>
+
+        <role>Java Developer</role>
+
+        </roles>	
+       <properties>
+          <active>true</active>
+       </properties>
+   </developer>
+ </developers>
+
+<modules>
+ 
+<module>multi-module</module>
+ 
+</modules>
+
+</project>

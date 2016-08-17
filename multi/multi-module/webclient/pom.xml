@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+	http://maven.apache.org/maven-v4_0_0.xsd">
+
+<modelVersion>4.0.0</modelVersion>
+
+<parent>
+
+<groupId>org.akalu</groupId>
+<artifactId>multi-module</artifactId>
+
+<version>1.0</version>
+
+</parent>
+
+<artifactId>webclient</artifactId>
+
+<packaging>war</packaging>
+
+<name>Module7: webclient</name>
+
+<dependencies>
+
+<dependency>
+
+  <groupId>${project.groupId}</groupId>
+
+  <artifactId>model</artifactId>
+  <version>${project.version}</version>
+
+</dependency>
+<dependency>
+
+  <groupId>${project.groupId}</groupId>
+
+  <artifactId>dataclient</artifactId>
+  <version>${project.version}</version>
+
+</dependency>
+<dependency>
+
+  <groupId>jstl</groupId>
+  
+  <artifactId>jstl</artifactId>
+</dependency>
+<dependency>
+
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-beans</artifactId>
+</dependency>
+<dependency>
+
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-web</artifactId>
+</dependency>
+<dependency>
+
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-webmvc</artifactId>
+</dependency>
+<dependency>
+
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-context</artifactId>
+</dependency>
+<dependency>
+
+  <groupId>org.hibernate</groupId>
+  <artifactId>hibernate-validator</artifactId>
+</dependency>
+<dependency>
+
+  <groupId>javax.servlet</groupId>
+  
+  <artifactId>servlet-api</artifactId>
+  
+</dependency>
+<dependency>
+
+  <groupId>org.jboss.logging</groupId>
+  <artifactId>jboss-logging</artifactId>
+</dependency>
+<dependency>
+
+  <groupId>log4j</groupId>
+  
+  <artifactId>log4j</artifactId>
+
+</dependency>
+<dependency>
+
+  <groupId>commons-logging</groupId>
+  <artifactId>commons-logging</artifactId>
+</dependency>
+<!-- 		additional runtime dependencies		-->
+<dependency>
+
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-aop</artifactId>
+</dependency>
+<dependency>
+
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-expression</artifactId>
+</dependency>
+<dependency>
+
+  <groupId>com.fasterxml.jackson.core</groupId>
+  <artifactId>jackson-annotations</artifactId>
+</dependency>
+<dependency>
+
+  <groupId>com.fasterxml.jackson.core</groupId>
+  <artifactId>jackson-core</artifactId>
+</dependency>
+
+<dependency>
+
+  <groupId>com.fasterxml.jackson.core</groupId>
+ 
+  <artifactId>jackson-databind</artifactId>
+
+</dependency>
+
+<dependency>
+
+  <groupId>com.fasterxml</groupId>
+  <artifactId>classmate</artifactId>
+</dependency>
+
+
+<!--		test		-->
+<dependency>
+
+  <groupId>org.mockito</groupId>
+  
+  <artifactId>mockito-all</artifactId>
+  
+</dependency>
+<dependency>
+
+  <groupId>org.mockito</groupId>
+ 
+  <artifactId>mockito-core</artifactId>
+ 
+</dependency>
+<dependency>
+
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-test</artifactId> 
+</dependency>
+</dependencies>
+
+
+<build>
+
+<plugins>
+
+  <plugin>
+
+    <groupId>org.codehaus.cargo</groupId>
+
+    <artifactId>cargo-maven2-plugin</artifactId>
+
+  </plugin>
+
+</plugins>    
+
+<finalName>webclient</finalName>
+</build>
+
+</project>
