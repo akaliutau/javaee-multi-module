@@ -7,7 +7,7 @@ This is a multi-module project implementing a REST Data server and web interface
 
 Overview
 ===========
-The multi-module project developed here consists of 9 modules – 1 parent, 1 transitive parent and 7 submodules.
+The multi-module project developed here consists of 8 modules – 1 parent,  7 submodules.
 
 A parent project with <pom> packaging does not have any resources, it is just a build file that refers to other Maven projects.
 
@@ -28,7 +28,7 @@ This module defines the service objects which are referenced by dataserver. The 
 
 endpoints
 
-This is a static module which is used as URI store and referenced by both the dataserver and dataclient modules. There are 11 end points in total.
+This is a static module which is used as URI store and referenced by both the dataserver and dataclient modules. There are 7 end points in total.
 
 dataserver
 
@@ -111,41 +111,36 @@ Alternatively,  you should  just copy the dataserver.war  file to CATALINA_HOME/
 Alternatively,  you should use the Tomcat Manager web application interactively (via HTML GUI) to deploy/redeploy/undeploy  a new web application from the uploaded contents of a WAR file.
 
 Rest service is available at the following end points (base URI is omitted):
-===============================================================
-No.	URI	HTTP Method	Parameters (Mandatory, Optional)
-===============================================================
-0	/empl	GET			( - , id)
 
-1	/empl/get	GET			( - , id)
 
-2	/empl/getlist	GET			(-,f,n, id)
+• /employee  - with the GET method, this URI returns a representation of an employee, with the DELETE method, it deletes an employee; mandatory parameter id is a unique identifier. With the POST method, this URI returns an id  of a newly created employee. Finally,  with the PUT method, it updates an employee.
 
-3	/empl/update	POST			(-, new )
+• /employees - with the GET method, this URI returns a list of all employees; POST, PUT, DELETE methods are not supported.
 
-4	/empl/delete	GET			(id, - )
+Optional parameters id, f, n define an id of department which these employees from, index of the first record in list, total amount of records to retrieve, respectively.
 
-5	/empl/search	GET			(-,-)
+• /employees_info -  with the GET method, this URI returns the number of employees in some chosen department;  mandatory parameter id is a unique identifier of that department.
 
-6	/dep	GET			( - , -)
+• /department  - with the GET method, this URI returns a representation of an department, with the DELETE method, it deletes a department; mandatory parameter id is a unique identifier. With the POST method, this URI returns an id  of a newly created department. Finally,  with the PUT method, it updates a department.
 
-7	/dep/get	GET			( - , id)
+• /departments - with the GET method, this URI returns a list of all departments; POST, PUT, DELETE methods are not supported.
 
-8	/dep/getlist	GET			(-,f, n)
+Optional parameters f, n define an index of the first record in list, total amount of records to retrieve, respectively.
 
-9	/dep/update	POST			(-, new )
+• /departments_info -  with the GET method, this URI returns the number of departments.
 
-10	/dep/delete	GET			(id, - )
+• /search -  with the PUT method, this URI returns a list of employees satisfying criteria defined in the variable of DobParamsSearch type, which is transfered in request body. 
 
 
 
 To test service availability, hit in any browser
-[ServerHostURI]/[ServerBaseURI]/dep/getlist
+[ServerHostURI]/[ServerBaseURI]/departments
 
 This uri defines a location of the list of departments from database.
 
 With default configuration the last address will look like
 
-http://localhost:8080/dataserver/dep/getlist
+http://localhost:8080/dataserver/departments
 
 
 
