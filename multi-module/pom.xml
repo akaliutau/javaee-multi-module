@@ -310,9 +310,9 @@ DEPENDENCY MANAGEMENT SECTION
 
   <groupId>javax.servlet</groupId>
   
-  <artifactId>servlet-api</artifactId>
+  <artifactId>javax.servlet-api</artifactId>
   
-  <version>3.1</version>
+  <version>3.1.0</version>
 </dependency>
 
 <dependency>
