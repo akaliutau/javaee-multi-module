@@ -42,7 +42,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * 
  * @See org.akalu.dataserver.test.TestContext
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

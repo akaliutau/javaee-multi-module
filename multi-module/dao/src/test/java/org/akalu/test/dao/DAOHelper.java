@@ -18,7 +18,7 @@ import org.springframework.jdbc.core.RowMapper;
  * This is an utility class, which is used by EmployeeDAOTest and
  * DepartmentDAOTest classes.
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

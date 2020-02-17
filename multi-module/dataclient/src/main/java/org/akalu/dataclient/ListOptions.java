@@ -9,7 +9,7 @@ import java.util.List;
  * 
  * @see org.akalu.dataclient.ListOption
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

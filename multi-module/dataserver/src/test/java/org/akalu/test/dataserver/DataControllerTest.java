@@ -52,7 +52,7 @@ import java.util.List;
  * All tests mostly functional by nature to the exclusion of the methods
  * test404() and test400() which are testing anomalies.
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 @RunWith(MockitoJUnitRunner.class)

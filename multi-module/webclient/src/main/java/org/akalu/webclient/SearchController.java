@@ -23,7 +23,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * SearchController handles requests for the search page.
  * 
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

@@ -36,7 +36,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
  * This class tests the functionality of MainController class.
  * 
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

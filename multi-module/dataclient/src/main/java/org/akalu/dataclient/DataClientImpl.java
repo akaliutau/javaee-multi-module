@@ -50,7 +50,7 @@ import org.springframework.web.client.RestTemplate;
  * {@code emplPageMaxResults} - the maximum number of records for employees
  * list, (before list begins paging)
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

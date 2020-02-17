@@ -32,7 +32,7 @@ import org.springframework.validation.BindingResult;
  * This class tests the functionality of DepController.
  * 
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

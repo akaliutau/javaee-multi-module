@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
  * mapping.
  * 
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

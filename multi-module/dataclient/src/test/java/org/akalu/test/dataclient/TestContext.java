@@ -15,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * Bean {@code MappingJackson2HttpMessageConverter} is used for conversion from
  * POJO to data in JSON format, and vice versa.
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

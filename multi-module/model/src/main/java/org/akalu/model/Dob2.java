@@ -17,7 +17,7 @@ import org.springframework.format.annotation.DateTimeFormat;
  * <p>
  * Displayed messages are taken from file i18n/message_en.properties
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 public class Dob2 {

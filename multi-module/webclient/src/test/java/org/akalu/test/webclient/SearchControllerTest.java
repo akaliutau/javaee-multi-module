@@ -40,7 +40,7 @@ import org.springframework.validation.BindingResult;
  * This class tests the functionality of SearchController.
  * 
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

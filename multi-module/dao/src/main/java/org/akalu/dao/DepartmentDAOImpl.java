@@ -25,7 +25,7 @@ import org.springframework.transaction.annotation.Transactional;
  * a standard SQL is used.
  * 
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 @Repository

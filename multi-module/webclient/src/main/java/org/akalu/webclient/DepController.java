@@ -22,7 +22,7 @@ import org.springframework.web.servlet.ModelAndView;
  * DepController handles requests for the add/edit department page.
  * 
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

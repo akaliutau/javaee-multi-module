@@ -20,7 +20,7 @@ import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
  * This class contains the simple form validation tests, just to be sure that
  * validator is working
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

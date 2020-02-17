@@ -22,7 +22,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * employees in chosen department.
  * 
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

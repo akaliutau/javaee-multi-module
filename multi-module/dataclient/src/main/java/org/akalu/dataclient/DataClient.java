@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
  * 
  * @see org.akalu.dataclient.DataClientImpl
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

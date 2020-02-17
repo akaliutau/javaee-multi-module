@@ -4,7 +4,7 @@ package org.akalu.webclient;
  * This is a simple utility class, which holds only constant values (mapping
  * addresses for Spring MVC).
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

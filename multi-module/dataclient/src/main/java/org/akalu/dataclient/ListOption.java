@@ -6,7 +6,7 @@ package org.akalu.dataclient;
  * 
  * @see org.akalu.dataclient.ListOptions
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

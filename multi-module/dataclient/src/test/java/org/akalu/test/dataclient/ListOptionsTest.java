@@ -13,7 +13,7 @@ import org.junit.Test;
 /**
  * This class contains a simple test for ListOptions class.
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

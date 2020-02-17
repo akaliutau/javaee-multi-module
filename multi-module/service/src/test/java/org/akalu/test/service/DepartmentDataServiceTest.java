@@ -38,7 +38,7 @@ import org.mockito.runners.MockitoJUnitRunner;
  * <p>
  * 3. Verify assertions
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

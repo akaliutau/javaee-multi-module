@@ -4,7 +4,7 @@ package org.akalu.uri;
  * This is a simple utility class, which holds only constant values (web service
  * end points for DataServer).
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

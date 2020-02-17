@@ -4,7 +4,7 @@ package org.akalu.dao;
  * This is a simple utility class, which holds only constant values (SQL queries
  * for DAO layer methods).
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

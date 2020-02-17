@@ -51,7 +51,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * During class initializing an instance of {@code DataClient} is created using
  * a fictitious URI
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  * 
  */

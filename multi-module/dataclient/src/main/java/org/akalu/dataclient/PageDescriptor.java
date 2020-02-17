@@ -13,7 +13,7 @@ package org.akalu.dataclient;
  * Class PageDescriptor is used for creating a simple paginator for [too long]
  * lists
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

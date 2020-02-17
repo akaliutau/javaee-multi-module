@@ -16,7 +16,7 @@ import org.springframework.web.servlet.DispatcherServlet;
  * NB: to run a such application the container with support of servlet 3.0 is
  * needed
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

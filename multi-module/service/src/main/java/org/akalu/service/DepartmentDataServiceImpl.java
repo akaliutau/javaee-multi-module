@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * methods here are generally mirroring the methods of the appropriate DAO class
  * 
  * @see org.akalu.dao.DepartmentDAOImpl
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

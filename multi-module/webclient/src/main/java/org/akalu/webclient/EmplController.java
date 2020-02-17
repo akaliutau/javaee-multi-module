@@ -25,7 +25,7 @@ import org.springframework.web.servlet.ModelAndView;
  * EmplController handles requests for the add/edit employee page.
  * 
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

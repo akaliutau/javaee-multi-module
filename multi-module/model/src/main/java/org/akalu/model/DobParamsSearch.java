@@ -11,7 +11,7 @@ import com.fasterxml.jackson.databind.ser.std.DateSerializer;
  * date of birth, boundaries for date of birth , etc.
  * 
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

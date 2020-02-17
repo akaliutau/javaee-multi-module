@@ -29,7 +29,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
  * approach there is no need in XML-based config files.
  * 
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

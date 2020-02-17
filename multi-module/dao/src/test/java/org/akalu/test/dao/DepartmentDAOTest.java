@@ -44,7 +44,7 @@ import org.springframework.transaction.annotation.Transactional;
  * 
  * @See org.akalu.dataserver.test.TestContext
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 

@@ -14,7 +14,7 @@ import org.junit.Test;
  * 
  * @see org.akalu.dataclient.PageDescriptor
  * 
- * @author Alex Kalutov
+ * @author Aliaksei Kaliutau
  * @since Version 1.0
  */
 
