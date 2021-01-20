@@ -259,7 +259,7 @@ DEPENDENCY MANAGEMENT SECTION
  
   <artifactId>jackson-databind</artifactId>
 
-  <version>2.1.0</version>
+  <version>2.9.10.7</version>
 </dependency>
 
 <dependency>
